@@ -1,0 +1,72 @@
+.topo {
+	position: absolute;
+	left: 0px
+}
+
+/* Adiciona uma cor ao fundo do menu de gravação */
+
+.menu {
+	background-color: #8DA1B9; /* Cor de fundo do menu*/
+	position: fixed;
+	top:0;
+	width: 100%; /* largura de 100% */
+}
+
+.menu a {
+	float: left;
+	color: #f2f2f2; /* cor da fonte do link*/
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none; /* retira o sublinhado do link*/
+	font-size: 18px;
+
+}
+/* Muda a cor do link ao passar o mouse nele*/
+.menu a:hover {
+	background-color: #C0CBD8;
+}
+
+.galeria {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #C0CBD8
+}
+
+.galeria: hover {
+	border-width: 1px;
+	border-style: dashed;
+
+}
+
+.galeria img {
+	width: 100%;
+	height: auto;
+}
+
+.Descrição {
+	padding: 20px;
+	font-size: 18px;
+	font-family: arial, helvetica;
+	color: white;
+	background-color: #95ADB6;
+	text-align: center;
+}
+
+.quadro-imagens {
+	padding: 0 6px;
+	float: left;
+	width: 25%;
+
+}
+
+.contato{
+	font-size: 17px;
+	color: #7A8E95;
+	text-align: center;
+	line-height: 30px;
+}
+
+* { /* o uso do * indica que a mudança que afetara todos os elementos*/
+	box-sizing: border-box;
+
+}
